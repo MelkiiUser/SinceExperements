@@ -1,0 +1,63 @@
+body {
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
+    url('https://static.tildacdn.com/tild3963-6138-4338-b835-646262336261/product-cora-pharmac.png'); /* Прямая ссылка на изображение */
+    background-size: cover; /* Изображение будет растянуто на весь экран */
+    background-position: center; /* Центрирование изображения */
+    background-repeat: no-repeat; /* Изображение не будет повторяться */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #333; /* Цвет текста */
+}
+
+h1 {
+    text-align: center;
+}
+
+.experiment {
+    background: rgba(255, 255, 255, 0.8); /* Полупрозрачный фон для текста */
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Тень для выделения блока */
+}
+
+header {
+    background: #1f1f1f;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #1b1b1b;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
